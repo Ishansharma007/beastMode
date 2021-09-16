@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #FFF;
+    font-family: 'Bebas Neue', cursive;
+}
+
+header{
+    height: 80px;
+    padding: 20px 40px;
+    background-color: #FFB319;
+    text-align: center;
+
+}
+
+header h1{
+    margin: 20px;
+    color: #2A0944;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 4px;
+    font-size: 3rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardDiv{
+    height: 270px;
+    width: 250px;
+    background-color: #FF2E63;
+    margin: 40px 20px 10px;
+    text-align: center;
+    border-radius: 8px;
+    color: #DCD6F7;
+    letter-spacing: 1px;
+    font-family: 'Bangers', cursive;
+
+}
+
+.cardDiv img{
+    width: 250px;
+    height:150px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: 2px solid #EAFFD0;
+}
+
+.bottomDiv{
+    padding: 10px ;
+}
